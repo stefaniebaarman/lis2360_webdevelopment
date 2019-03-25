@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* This original content was created by Stefanie Baarman on March 25th, 2019 */
+
+body {
+	font-family: "Lucida Console", Monaco, monospace;
+	font-size: 12px;
+	line-height: 1.5em;
+	color: #000000;
+	background-color: #F1E9DC; 
+	padding: 0 50px;
+}
+
+/* basic text styles ----------------------------  */
+p, li, td {
+	letter-spacing: 0.1em;
+	color: #000000;
+}
+h1 {
+	font-size: 22px;
+	padding: 2px 0;
+	font-variant: small-caps;
+	letter-spacing: .5em;
+	line-height: 2em;
+}
+h2 {
+	font-size: 18px;
+	padding: 7px;
+	font-variant: small-caps;
+	letter-spacing: 0.5em;
+	background-color: #596F8F;
+}
+h3 {
+	font-size: 20px;
+	letter-spacing: 0.5em;
+	padding: 6px 0;
+	font-variant: small-caps;
+	font-style: oblique;
+}
+
+/* link styles ---------------------------- */
+a:link {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:hover {
+	color: #212938;
+}
+
+/* list styles ----------------------------- */
+ul li {
+	margin-left: 12px;
+}
+ol {
+	margin-left: 14px;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #212938 1px;
+}
+td {
+	padding: 6px;
+	border: solid #212938 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #212938;
+	text-align: center;
+	padding: 6px;
+	border: solid #212938 1px;
+}
+
+/* border styles ------------------------------------ */
+hr {
+	border: dotted #596F8F 1px;
+}
+
+img {
+	border: double #212938 2px;
+}
+
+iframe {
+	border: double #212938 2px;
+	padding: 8px;
+	margin: 8px;
+}
