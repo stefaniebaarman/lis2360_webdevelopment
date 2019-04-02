@@ -1,33 +1,36 @@
 @charset "UTF-8";
-/* This CSS document was created by Stefanie Baarman on March 25th, 2019 */
+/* This CSS document was created by Stefanie Baarman on April 2nd, 2019 */
 
 body {
 	font-family: "Lucida Console", Monaco, monospace;
 	font-size: 12px;
 	line-height: 1.5em;
 	color: #000000;
-	background-color: #F1E9DC; 
-	padding: 0 50px;
+	background-color: #596F8F; 
+	padding: 0 40px;
+	margin: 0;
 }
 
 /* basic text styles ----------------------------  */
 p, li, td {
 	letter-spacing: 0.1em;
 	color: #000000;
+	padding: 0 40px;
 }
 h1 {
-	font-size: 22px;
-	padding: 2px 0;
+	font-size: 24px;
+	padding: 0 40px;
 	font-variant: small-caps;
 	letter-spacing: .5em;
 	line-height: 2em;
+	margin:0;
 }
 h2 {
 	font-size: 18px;
-	padding: 7px;
+	padding: 10px;
 	font-variant: small-caps;
 	letter-spacing: 0.5em;
-	background-color: #596F8F;
+	background-color: #C19A75;
 }
 h3 {
 	font-size: 20px;
@@ -78,15 +81,51 @@ th {
 
 /* border styles ------------------------------------ */
 hr {
-	border: dotted #596F8F 1px;
-}
-
-img {
-	border: double #212938 2px;
+	border: solid #596F8F 1px;
 }
 
 iframe {
-	border: double #212938 2px;
+	border: solid #212938 2px;
 	padding: 8px;
 	margin: 8px;
+}
+
+/* DIV STYLES FOR PAGE LAYOUT */
+#container { 
+	width: 950px; 
+	margin: 0 auto; 
+	background-color: #fff; 
+	overflow: hidden; 
+ 
+}
+#header { 
+	width: 100%; 
+	background-color: #EEE;
+	padding: 0px;
+}
+#content { 
+	width: 100%;
+	float: left; 
+	padding-bottom: 40px;
+}
+#sidebar { 
+	width: 300px; 
+	float: right;
+	background: #eee;
+	border: 2px solid #596F8F;
+	border-radius: 10px;
+}
+#sidebar p{
+	padding: 10px;
+	float: left;
+}
+#footer { 
+	clear: both;
+	width: 100%; 
+	background-color: #EEE;
+	border-top: 1px solid #596F8F;
+}
+#footer p {
+	margin: 0;
+	padding: 40px;
 }
