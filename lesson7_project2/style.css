@@ -1,0 +1,146 @@
+@charset "UTF-8";
+/* This CSS document was created by Stefanie Baarman on April 2nd, 2019 */
+/* --------------------------- HTML TAG STYLES ----------------------------- */
+
+body {
+	font-family: "Courier New", Courier, monospace;
+	font-size: 16px;
+	line-height: 1.5em;
+	color: #000000;
+	margin: 0px; /* always zero out defaul browser margins and padding */
+  	padding: 0px;
+}
+p {
+  font-size: 14px;
+  margin-bottom: 20px;
+  line-height: 1.5em;
+}
+h1 {
+  padding: 20px 0;
+}
+td {
+	padding: 6px;
+	border: solid #6297F9 1px;
+}
+li{
+	letter-spacing: 0.1em;
+	color: #000000;
+	padding: 0 20px;
+}
+a:link {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:visited {
+	font-weight: bold;
+	color: #596F8F;
+	text-decoration: none;
+}
+a:hover {
+	color: #212938;
+}
+
+/* table styles -------------------------------------- */
+table {
+	border: solid #212938 1px;
+}
+td {
+	padding: 6px;
+	border: solid #212938 1px;
+}
+th {
+	font-weight: bold;
+	background-color: #212938;
+	text-align: center;
+	padding: 6px;
+	border: solid #212938 1px;
+}
+
+/* border styles ------------------------------------ */
+iframe {
+	border: solid #212938 2px;
+	padding: 8px;
+	margin: 8px;
+}
+/* -------------------------- PAGE SECTIONS ---------------------------- */
+/* Visual sections of page are defined below in order of presentation */  
+
+#splash {
+   	background: url(images/evolution.jpg) no-repeat center top fixed;
+   	background-size: cover;  
+	height: 1000px; /* dictates a taller section for title page allowing the background image to be seen */
+	overflow: hidden;
+	
+}
+/* Do not dictate height for remaining sections since the content will dictate heights. */
+#overview {
+	padding: 40px 0 60px 0; /* top padding provides space for nav bar, bottom padding for asthetics */	
+   	background-color: #F1E9DC;
+	color: #000;
+}
+
+#video {
+	padding: 40px 0 60px 0;
+    background: url(images/evolution2.jpg) no-repeat center top fixed;
+    background-size: cover;
+	color: #fff;
+}
+
+#discography {
+	padding: 40px 0 60px 0;	
+    background-color: #efeee4;;
+	color: #222;
+}
+
+#footer{
+  	background-color: #596F8F;
+  	color: #fff;
+  	padding: 20px 0;
+
+}
+/* ---------------- CONTAINER STYLES ----------------- */
+/* Containers are used to keep the page content within bounds centered in the browser window. */
+.container {
+  width: 960px; /* static width container always stays at this width no matter what the window size */
+  margin: 0 auto;
+  overflow: hidden;
+}
+.half_container { /* provides a two column presentation */
+  width: 50%;
+  float: left;
+  overflow: hidden;
+}
+
+/* ---------------- TITLE PAGE STYLES ------------------- */
+
+#title-page{
+  width: 100%;
+  padding-top: 100px; /* provides a lot of space above title to view the background image */
+  color: #fff;
+  text-align: center;
+}
+#title-page h1 {
+  font-size: 80px;
+  line-height: 100px;
+  text-shadow: 3px 3px #000; /* Shadow helps text to stand out from background */
+}
+#title-page h3 {
+  font-size: 3em;
+  margin: 0 40px;
+  padding-bottom: 20px;
+  text-shadow: 2px 2px #000;
+}
+
+/* ------------------- FOOTER CREDITS --------------------- */
+
+#credits {
+  text-align: center;	
+}
+#credits table{      
+  margin: 0 auto;		/* centers the color palette table */
+}
+#credits p {
+  font-size: .8em;
+  margin: 10px 0;
+}
