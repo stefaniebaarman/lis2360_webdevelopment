@@ -150,5 +150,21 @@
 	</div> <!-- end credits section -->
 	</div> <!-- end container section -->
 </section> <!-- end footer -->
+
+<!-- JAVASCRIPT CODE -->
+<!--jquery required for scrolling effect -->
+<script src="js/jquery.js"></script>
+<!-- Scrolling navigation script by Geo Miller glmiller@pic.fsu.edu -->  
+<script type='text/javascript'>
+jQuery(document).ready(function () {
+  jQuery('.button').click(function() {
+    targetName = jQuery(this).attr('href');
+    targetLocation = jQuery(targetName).offset().top;
+    jQuery('html, body').animate({scrollTop:targetLocation}, 'slow');
+    return false;
+  });
+});
+</script>
+
 </body>
 </html>
